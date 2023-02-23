@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-weight: 400;
+}
+
+header{
+    height: 80px;
+    background-color: bisque;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    
+}
+
+li{
+    margin-top: 23px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+}
+
+.first-image{
+    height: auto;
+}
+
+.esport{
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(205, 205, 205);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    
+}
