@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -31,7 +31,7 @@
                 <div class="background-image">
                     <img src="https://i.postimg.cc/DZMf3yX2/esport.jpg" alt="">
                 </div>
-                <div class="title">
+                <div data-aos="zoom-out-up" class="title">
                 <h1>Plongez dans l'univers compétitif du gaming</h1>
                 <p>La référence du gaming compétitif, C'est Nous !</p>
                 </div>
@@ -46,17 +46,17 @@
     
         <div class="container-two">
             <section class="floating-boxes">
-                <div class="box">
+                <div  data-aos="flip-left" data-aos-duration="1000" class="box">
                   <h2>Comment améliorer vos compétences en E-Sport</h2>
                   <h3>5 conseils pratiques pour améliorer vos compétences en E-Sport</h3>
                   <p>Devenez un joueur de classe mondiale grâce à ces astuces simples</p>
                 </div>
-                <div class="box">
+                <div data-aos="flip-up" data-aos-duration="1000" class="box">
                   <h2>Les joueurs les plus célèbres de l'E-Sport</h2>
                   <h3>Les 5 joueurs les plus célèbres de l'E-Sport</h3>
                   <p>Découvrez les légendes du jeu vidéo qui ont marqué l'histoire de l'E-Sport</p>
                 </div>
-                <div class="box">
+                <div data-aos="flip-right" data-aos-duration="1000" class="box">
                   <h2>L'avenir de l'E-Sport</h2>
                   <h3>Les tendances à venir de l'E-Sport en 2023</h3>
                   <p>Découvrez ce que l'avenir nous réserve pour le monde de l'E-Sport</p>
@@ -121,6 +121,10 @@
             </ul>
           </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="parrainage.js" defer></script>
 </body>
 </html>
