@@ -237,7 +237,7 @@ body {
     align-items: flex-start;
     height: 100%;
     font-family: "Poppins";
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
   
   /* Styles pour le formulaire */
@@ -483,5 +483,17 @@ body {
     .footer__nav {
       flex: 2 0px;
     }
+  }
+
+  .parrainage-container {
+    position: relative;
+  }
+  
+  #parrainage-link {
+    padding-top: 2%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
   }
   

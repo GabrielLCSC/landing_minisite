@@ -65,25 +65,29 @@
         </div> 
         
         <div class="form-container">
-            <form action="/" class="decor">
-              <div class="form-left-decoration"></div>
-              <div class="form-right-decoration"></div>
-              <div class="circle"></div>
-              <div class="form-inner">
-                <h1>Information</h1>
-                <input type="text" placeholder="Prénom">
-                <input type="email" placeholder="Nom">
-                <input type="email" placeholder="Email">
-                <input type="email" placeholder="Adresse">
-                <input type="email" placeholder="Téléphone">
-                <input type="email" placeholder="Code Postal">
-                <input type="email" placeholder="Ville">
-                <input type="email" placeholder="Pays">
-                <textarea placeholder="Message..." rows="5"></textarea>
-                <button type="submit" href="/">Submit</button>
+          <form action="/" class="decor">
+            <div class="form-left-decoration"></div>
+            <div class="form-right-decoration"></div>
+            <div class="circle"></div>
+            <div class="form-inner">
+              <h1>Information</h1>
+              <input type="text" placeholder="Prénom">
+              <input type="email" placeholder="Nom">
+              <input type="email" placeholder="Email">
+              <input type="email" placeholder="Adresse">
+              <input type="email" placeholder="Téléphone">
+              <input type="email" placeholder="Code Postal">
+              <input type="email" placeholder="Ville">
+              <input type="email" placeholder="Pays">
+              <textarea placeholder="Message..." rows="5"></textarea>
+              <button type="submit" href="/">Submit</button>
+              <div class="parrainage-container">
+                <button id="parrainage-btn" type="button">Code de Parrainage</button>
+                <span id="parrainage-link"></span>
               </div>
-            </form>
-          </div>
+            </div>
+          </form>
+        </div>
 
           <footer class="footer">
             <div class="footer__addr">
@@ -171,5 +175,6 @@
             </div>
           </footer>
     </div>
+    <script src="parrainage.js" defer></script>
 </body>
 </html>
