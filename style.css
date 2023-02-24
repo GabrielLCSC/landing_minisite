@@ -98,6 +98,7 @@ body {
     bottom: 0;
     overflow: hidden;
     height: 100%;
+    width: 100%;
 }
 .background-image img {
     width: 100%;
